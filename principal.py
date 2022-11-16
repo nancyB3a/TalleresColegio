@@ -15,3 +15,13 @@ para_mostrar = []
 #3.1 saco una palabra al azar desde la lista
 palabra_sorteada = random.choice(lista_palabras)
 largo_palabra = len(palabra_sorteada)
+
+#4 solicito el nombre del jugador y le doy la bienvenida
+nombre=input("Ingresa tu nombre: ")
+print()
+print("*"*80)
+print(f"*                    Hola {nombre.upper()}")
+print(f"*       La PALABRA que debes adivinar tiene {largo_palabra} letras...")
+print("*                   !!!MUCHA SUERTE!!!!!")
+print("*"*80)
+print()
