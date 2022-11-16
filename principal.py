@@ -3,3 +3,5 @@
 import random,os
 from monos import etapas, logo, ganador
 from palabras import lista_palabras
+#lo que sea
+dfASD
